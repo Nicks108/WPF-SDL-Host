@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>439</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>440</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>441</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>442</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui_sdl-master\</FILEPATH>
+      <FILENAME>imgui_sdl.cpp</FILENAME>
+      <LINE>173</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable '`anonymous-namespace'::Device::Clip' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::Device::{ctor}</FUNCTION>
+    <DECORATED>??0Device@?A0x4a318b9d@@QAE@PAUSDL_Renderer@@@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>`anonymous-namespace'::Device::Clip</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui_sdl-master\</FILEPATH>
+      <FILENAME>imgui_sdl.cpp</FILENAME>
+      <LINE>496</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_RendererFlip' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::DrawRectangle</FUNCTION>
+    <DECORATED>?DrawRectangle@?A0x4a318b9d@@YAXABURect@1@PAUSDL_Texture@@HHABUColor@1@_N3@Z</DECORATED>
+    <FUNCLINE>468</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui_sdl-master\</FILEPATH>
+      <FILENAME>imgui_sdl.cpp</FILENAME>
+      <LINE>555</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_BlendMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiSDL::Render</FUNCTION>
+    <DECORATED>?Render@ImGuiSDL@@YAXPAUImDrawData@@@Z</DECORATED>
+    <FUNCLINE>553</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

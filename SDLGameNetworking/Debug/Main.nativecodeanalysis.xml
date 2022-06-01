@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>439</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>440</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>441</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_stdinc.h</FILENAME>
+      <LINE>442</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>SDL_memset4</FUNCTION>
+    <DECORATED>SDL_memset4</DECORATED>
+    <FUNCLINE>420</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\SDL2-2.0.9\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Vector2::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Vector2::{ctor}</FUNCTION>
+    <DECORATED>??0Vector2@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector2::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Vector2::Y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Vector2::{ctor}</FUNCTION>
+    <DECORATED>??0Vector2@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector2::Y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Vector2::Y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Vector2::{ctor}</FUNCTION>
+    <DECORATED>??0Vector2@@QAE@HH@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector2::Y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Transfrom2D::Owner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Transfrom2D::{ctor}</FUNCTION>
+    <DECORATED>??0Transfrom2D@@QAE@XZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Transfrom2D::Owner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Transfrom2D::Owner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Transfrom2D::{ctor}</FUNCTION>
+    <DECORATED>??0Transfrom2D@@QAE@UVector2@@0@Z</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Transfrom2D::Owner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>UDPConnection.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'DataPacket::PacketID' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>DataPacket::{ctor}</FUNCTION>
+    <DECORATED>??0DataPacket@@QAE@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DataPacket::PacketID</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'GameStates' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>729</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'p_open'. </DESCRIPTION>
+    <FUNCTION>ShowExampleAppDockSpace</FUNCTION>
+    <DECORATED>?ShowExampleAppDockSpace@@YAXPA_N@Z</DECORATED>
+    <FUNCLINE>634</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>649</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>650</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>651</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>655</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>656</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>668</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>673</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>681</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>683</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>689</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>693</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>701</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>702</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>711</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>713</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>717</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>718</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>719</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>721</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>722</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>723</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>724</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>725</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>726</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>728</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p_open' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>729</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p_open' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

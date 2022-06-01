@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imGUI">
+      <UniqueIdentifier>{6fafa184-d8e4-4d5d-988e-e4b04f91ed75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component Src">
+      <UniqueIdentifier>{51ad468a-0dcd-4a23-add4-85b3ece4a62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\component Header">
+      <UniqueIdentifier>{51e97047-c751-4e07-aabc-821fc5e72404}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OldMainKiwi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_demo.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_draw.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_tables.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_widgets.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui_sdl-master\imgui_sdl.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\backends\imgui_impl_sdl.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="I_GUIWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transfrom2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintToConsole.cpp">
+      <Filter>Source Files\Component Src</Filter>
+    </ClCompile>
+    <ClCompile Include="SceanHirarcyWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfilerSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\imconfig.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\imgui.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\imgui_internal.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\imstb_rectpack.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\imstb_textedit.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\imstb_truetype.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui_sdl-master\imgui_sdl.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\backends\imgui_impl_sdl.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="I_GUIWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transfrom2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintToConsole.h">
+      <Filter>Header Files\component Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentHeaders.h">
+      <Filter>Header Files\component Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceanHirarcyWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfilerSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

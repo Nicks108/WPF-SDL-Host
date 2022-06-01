@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>7757</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'p_open'. </DESCRIPTION>
+    <FUNCTION>ShowExampleAppDockSpace</FUNCTION>
+    <DECORATED>?ShowExampleAppDockSpace@@YAXPA_N@Z</DECORATED>
+    <FUNCLINE>7670</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7685</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7686</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7687</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7691</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7692</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7705</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7710</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7718</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7720</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7721</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7724</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7728</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7729</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7736</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7739</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7741</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7745</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7746</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7747</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7749</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7750</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7751</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7752</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7753</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7754</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7756</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p_open' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>7757</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p_open' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>7881</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ShowExampleAppDocuments::__l2::Target' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ShowExampleAppDocuments</FUNCTION>
+    <DECORATED>?ShowExampleAppDocuments@@YAXPA_N@Z</DECORATED>
+    <FUNCLINE>7870</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>8017</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiCond_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ShowExampleAppDocuments</FUNCTION>
+    <DECORATED>?ShowExampleAppDocuments@@YAXPA_N@Z</DECORATED>
+    <FUNCLINE>7870</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

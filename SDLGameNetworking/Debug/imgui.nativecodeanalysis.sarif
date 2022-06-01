@@ -1,0 +1,3594 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'viewport'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 12252,
+                  "startColumn": 5,
+                  "endLine": 12252,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DestroyViewport@ImGui@@YAXPAUImGuiViewportP@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12236,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12237,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12237,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12239,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12240,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12242,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12243,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12237,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12237,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12239,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12240,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'viewport' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12242,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12243,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12237,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12237,
+                            "startColumn": 37
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('window_n<g.Windows.Size' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12245,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12250,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "'viewport' is an In/Out argument to 'ImGui::DestroyPlatformWindow' (declared at d:\\one drive - uos\\onedrive - university of suffolk\\uos\\units\\tools for game development\\06 - im gui 1\\sdlgamenetworking\\libraries\\imgui-master\\imgui_internal.h:2676)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12251,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12252,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12252,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'viewport' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'window->Viewport'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 12379,
+                  "startColumn": 13,
+                  "endLine": 12379,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WindowSelectViewport@ImGui@@YAXPAUImGuiWindow@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12260,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12261,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12262,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12265,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12266,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12271,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12274,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12280,
+                            "startColumn": 73
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12295,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12296,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12303,
+                            "startColumn": 53
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12310,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12315,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12319,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12323,
+                            "startColumn": 77
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12332,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'window->Viewport' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12333,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12338,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'window->Viewport==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12339,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12343,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!lock_viewport')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12345,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'flags' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12357,
+                            "startColumn": 144
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12375,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12379,
+                            "startColumn": 56
+                          }
+                        },
+                        "message": {
+                          "text": "'window->Viewport' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'window'. See line 12261 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 12384,
+                  "startColumn": 5,
+                  "endLine": 12384,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WindowSelectViewport@ImGui@@YAXPAUImGuiWindow@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12260,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12261,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12262,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12265,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12266,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12271,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12274,
+                            "startColumn": 71
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12280,
+                            "startColumn": 73
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12295,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12296,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12303,
+                            "startColumn": 53
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12310,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12315,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'flags' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12319,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is an In/Out argument to 'ImGui::GetWindowAlwaysWantOwnViewport' (declared on line 974)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12319,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12323,
+                            "startColumn": 77
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12332,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12333,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12338,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'window->Viewport==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12339,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is an In/Out argument to 'ImGui::UpdateTryMergeWindowIntoHostViewport' (declared on line 972)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12339,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12340,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is an In/Out argument to 'ImGui::AddUpdateViewport' (declared on line 966)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12343,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!lock_viewport')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12345,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'flags' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12357,
+                            "startColumn": 144
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12375,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12379,
+                            "startColumn": 56
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12384,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'node'. See line 13368 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13457,
+                  "startColumn": 9,
+                  "endLine": 13457,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DockContextProcessDock@ImGui@@YAXPAUImGuiContext@@PAUImGuiDockRequest@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13330,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13331,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13333,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13334,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13336,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13337,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13338,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13339,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13345,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13346,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13347,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13359,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13361,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13365,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13367,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13368,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13369,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13370,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13378,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13379,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13390,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13392,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'node' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13457,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "'node' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'node->TabBar'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13683,
+                  "startColumn": 13,
+                  "endLine": 13683,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DockNodeAddWindow@ImGui@@YAXPAUImGuiDockNode@@PAUImGuiWindow@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13642,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13642,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13643,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13649,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13655,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13658,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13659,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13660,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13661,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13662,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13663,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13667,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13678,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13680,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "'node->TabBar' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13682,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13683,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'node->TabBar' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'node' contains the same NULL value as 'info->CentralNode' did. See line 13856 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13870,
+                  "startColumn": 9,
+                  "endLine": 13870,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DockNodeFindInfo@@YAXPAUImGuiDockNode@@PAUImGuiDockNodeTreeInfo@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13856,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13862,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13864,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13865,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13866,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13868,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'node' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13870,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node->ChildNodes[0]' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13870,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'node' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'merge_lead_child'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 15136,
+                  "startColumn": 5,
+                  "endLine": 15136,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DockNodeTreeMerge@ImGui@@YAXPAUImGuiContext@@PAUImGuiDockNode@@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15111,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15112,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15113,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15114,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'merge_lead_child' may be NULL (Enter this loop)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15115,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15123,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'merge_lead_child' is an In/Out argument to 'ImGui::DockNodeMoveChildNodes' (declared on line 12892)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15124,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'child_0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15129,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'child_1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15131,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15132,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15134,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15135,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 15136,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'merge_lead_child' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'window->DockNode' contains the same NULL value as 'node' did. See line 16125 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 16196,
+                  "startColumn": 16,
+                  "endLine": 16196,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?BeginDocked@ImGui@@YAXPAUImGuiWindow@@PA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16075,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16076,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16079,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16081,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16082,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16093,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16094,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16095,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16096,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16104,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16105,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'node' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16107,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'window->DockId!=0&&node==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16125,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16137,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16137,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16138,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16137,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16137,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16138,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16137,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16137,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16143,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node->HostWindow==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16153,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '!!((node->HostWindow))')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16154,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '!!((node->IsLeafNode()))')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16155,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16156,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16159,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16166,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16167,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16168,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16169,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16170,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16171,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16172,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node->MergedFlags' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16176,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16180,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16181,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16182,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16185,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16189,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 40,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16192,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 41,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16196,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'node' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'node'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 16125,
+                  "startColumn": 9,
+                  "endLine": 16125,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?BeginDocked@ImGui@@YAXPAUImGuiWindow@@PA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16075,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16076,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16079,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16081,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16082,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16093,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16094,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16095,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16096,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16104,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16105,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'node' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16107,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'window->DockId!=0&&node==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 16125,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'node' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29337.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00EEB1D0 -il C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\_CL_5a08d3ddast -typedil -f ..\\Libraries\\imgui-master\\imgui.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829337 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_MBCS -D_CRT_SECURE_NO_WARNINGS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\imgui.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\SDLGameNetworking -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\imgui-master -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\glew-1.13.0\\include -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\Kiwi\\src -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\SDL2_ttf-2.0.14\\include -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\SDL2-2.0.9\\include -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\SDL2_image-2.0.4\\include -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\glew-1.13.0\\include -I D:\\One Drive - UOS\\OneDrive - University of Suffolk\\UOS\\Units\\Tools For Game Development\\06 - im gui 1\\SDLGameNetworking\\Libraries\\SDL2_net-2.0.1\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 00000000000001C4",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/One Drive - UOS/OneDrive - University of Suffolk/UOS/Units/Tools For Game Development/06 - im gui 1/SDLGameNetworking/Libraries/imgui-master/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/one drive - uos/onedrive - university of suffolk/uos/units/tools for game development/06 - im gui 1/sdlgamenetworking/libraries/imgui-master/imgui.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/one drive - uos/onedrive - university of suffolk/uos/units/tools for game development/06 - im gui 1/sdlgamenetworking/libraries/imgui-master/imconfig.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/one drive - uos/onedrive - university of suffolk/uos/units/tools for game development/06 - im gui 1/sdlgamenetworking/libraries/imgui-master/imgui_internal.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/one drive - uos/onedrive - university of suffolk/uos/units/tools for game development/06 - im gui 1/sdlgamenetworking/libraries/imgui-master/imstb_textedit.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        }
+      ]
+    }
+  ]
+}

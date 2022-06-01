@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Vector2::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Vector2::{ctor}</FUNCTION>
+    <DECORATED>??0Vector2@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector2::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Vector2::Y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Vector2::{ctor}</FUNCTION>
+    <DECORATED>??0Vector2@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector2::Y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Vector2::Y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Vector2::{ctor}</FUNCTION>
+    <DECORATED>??0Vector2@@QAE@HH@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector2::Y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Transfrom2D::Owner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Transfrom2D::{ctor}</FUNCTION>
+    <DECORATED>??0Transfrom2D@@QAE@XZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Transfrom2D::Owner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\</FILEPATH>
+      <FILENAME>Transfrom2D.h</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Transfrom2D::Owner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Transfrom2D::{ctor}</FUNCTION>
+    <DECORATED>??0Transfrom2D@@QAE@UVector2@@0@Z</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Transfrom2D::Owner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

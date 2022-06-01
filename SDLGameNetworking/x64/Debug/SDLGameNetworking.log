@@ -1,0 +1,20 @@
+﻿  imgui_impl_sdl.cpp
+D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\Libraries\imgui-master\backends\imgui_impl_sdl.cpp(47,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_sdl.cpp
+  Bitmap.cpp
+D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\I_GUIWindow.h(4,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  I_GUIWindow.cpp
+D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\I_GUIWindow.h(4,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  Main.cpp
+D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\I_GUIWindow.h(4,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  OldMainKiwi.cpp
+  Sprite.cpp
+D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\I_GUIWindow.h(4,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  UDPConnection.cpp
+D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking\SDLGameNetworking\UDPConnection.h(4,10): fatal error C1083: Cannot open include file: 'SDL_net.h': No such file or directory
+  Generating Code...
