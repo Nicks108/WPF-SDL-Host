@@ -25,7 +25,7 @@ public:
 		while (SDL_PollEvent(&e) != 0) // poll all events
 		{
 			
-			cout << "SDL input" << endl;
+			cout << "SDL input: "<< e.type << endl;
 			switch (e.type)
 			{
 			case SDL_MOUSEMOTION:

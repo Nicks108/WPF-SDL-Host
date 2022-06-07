@@ -15,6 +15,8 @@ namespace WPFEditor
         private int _width = 800;
         private int _height = 600;
         private IntPtr _renderWindowHandle = IntPtr.Zero;
+        private HandleRef _hwnd;
+        private HandleRef _hwndParent;
 
         private static int INVALID_ID = -1;
         public int SurfaceID { get; private set; } = INVALID_ID;
@@ -35,9 +37,35 @@ namespace WPFEditor
         internal const int HostId = 0x00000002;
         internal const int WmErasebkgnd = 0x0014;
         internal const int WM_KEYDOWN = 0x0100;
+        internal const int WM_NCHITTEST = 0x0084;
+        internal const int HTCLIENT = 1;
+        internal const int WM_CAPTURECHANGED = 0x0215;
+        internal const int WM_MOUSELEAVE = 0x02A3;
+        internal const int WM_MOUSEHOVER = 0x02A1;
+        internal const int WM_NCMOUSEHOVER = 0x02A0;
+        internal const int WM_NCMOUSELEAVE = 0x02A2;
+        internal bool _isMouseInwindow = false;
+
+        internal bool IsMouseInWindow
+        {
+            set
+            {_isMouseInwindow = value;
+                if (value == true)
+                    SetFocus(_hwnd.Handle);
+                else
+                {
+                    SetFocus(IntPtr.Zero);
+                }
+            }
+            get
+            {
+                return _isMouseInwindow;
+            }
+        }
 
         protected override HandleRef BuildWindowCore(HandleRef hwndParent)
         {
+            _hwndParent = hwndParent;
             // SurfaceID =
             _renderWindowHandle = CreateWindowEx(0, "static", "",
                 WsChild | WsVisible,
@@ -52,14 +80,34 @@ namespace WPFEditor
             // _renderWindowHandle = EngineAPI.GetWindowHandle(_hwndHost);
             EngineAPI.CreatNewChildGameWindow(_renderWindowHandle, _width, _height);
 
-            HandleRef h = new HandleRef(this, _renderWindowHandle);
+            _hwnd = new HandleRef(this, _renderWindowHandle);
 
             _renderThread = new Thread(new ParameterizedThreadStart(Render));
             _renderThread.Start();
 
+            //did this do anything?
+            //const int GWL_STYLE = (-16);
+            //const int WS_CHILD = 0x40000000;
+            //SetWindowLong(_hwnd.Handle, GWL_STYLE, WS_CHILD);
+            //SetParent(_hwnd.Handle, hwndParent.Handle);
+            SetFocus(_hwnd.Handle);
+
+            this.MouseEnter+= OnMouseEnter;
+            this.MouseLeave += OnMouseLeave;
             
-            return h;
+            return _hwnd;
         }
+
+        private void OnMouseLeave(object sender, MouseEventArgs e)
+        {
+            Console.WriteLine("leaveing render surface");
+        }
+
+        private void OnMouseEnter(object sender, MouseEventArgs e)
+        {
+            Console.WriteLine("entering render surface");
+        }
+
 
         private void Render(object data)
         {
@@ -117,15 +165,48 @@ namespace WPFEditor
             //Console.WriteLine(Keyboard.FocusedElement.ToString());
             //Keyboard.Focus(this);
             //Console.WriteLine(Keyboard.FocusedElement.ToString());
-
+            
+            //Console.WriteLine(IsKeyboardFocused);
+            //Console.WriteLine(IsKeyboardFocusWithin);
+            
             switch (msg)
             {
                 case WM_KEYDOWN:
-                    handled = false;
+                    
+                    Console.WriteLine("keydoen in render host");
+                    Console.WriteLine(this.IsMouseCaptured);
+                    System.Windows.Point p = Mouse.GetPosition(this);
+                    
+                    handled = !IsMouseInWindow;
                     break;
                 case WmErasebkgnd:
                     //_view.update();
                     handled = true;
+                    break;
+                case WM_NCHITTEST:
+                {
+                    Console.WriteLine("mouse in window");
+                    IsMouseInWindow = true;
+                    handled = true;
+                    return (IntPtr)(HTCLIENT);
+                }
+                break;
+                case WM_CAPTURECHANGED:
+                    //Console.WriteLine("mouse capture change");
+                    break;
+                case WM_MOUSELEAVE:
+                    Console.WriteLine("mouse leaving");
+                    IsMouseInWindow = false;
+                    handled = true;
+                    break;
+                case WM_MOUSEHOVER:
+                    Console.WriteLine("mouse hover render host");
+                    break;
+                case WM_NCMOUSEHOVER:
+                    Console.WriteLine("mouse hover render host NC");
+                    break;
+                case WM_NCMOUSELEAVE :
+                    Console.WriteLine("mouse leave render host NC");
                     break;
                 default:
                     handled = false;
@@ -135,12 +216,31 @@ namespace WPFEditor
 
             return IntPtr.Zero;
         }
-        protected override void OnKeyDown(KeyEventArgs e)
-        {
-            //base.OnKeyDown(e);
-            Console.WriteLine("Key down in render host");
-            SendMessage(_renderWindowHandle, WM_KEYDOWN, (IntPtr)KeyInterop.VirtualKeyFromKey(e.Key), IntPtr.Zero);
-        }
+        //protected override void OnKeyDown(KeyEventArgs e)
+        //{
+        //    //base.OnKeyDown(e);
+        //    Console.WriteLine("Key down in render host");
+        //    //SendMessage(_renderWindowHandle, WM_KEYDOWN, (IntPtr)KeyInterop.VirtualKeyFromKey(e.Key), IntPtr.Zero);
+
+        //    MSG msg = ComponentDispatcher.CurrentKeyboardMessage;
+            
+            
+
+        //    ModifierKeys modifiers = Keyboard.Modifiers; // HwndKeyboardInputProvider.GetSystemModifierKeys();
+
+        //    bool handled = ((IKeyboardInputSink)this).TranslateAccelerator(ref msg, modifiers);
+
+        //    if (handled)
+        //        e.Handled = handled;
+
+        //    base.OnKeyDown(e);
+
+        //}
+        
+
+       
+
+
 
 
         [DllImport("user32.dll", EntryPoint = "SendMessage", CharSet = CharSet.Unicode)]
@@ -170,5 +270,17 @@ namespace WPFEditor
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
         static extern bool GetKeyboardState(byte[] lpKeyState);
+
+
+        [DllImport("user32.dll")]
+        static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+        [DllImport("user32.dll")]
+        static extern int SetWindowLong(IntPtr hWnd, int nIndex, UInt32 dwNewLong);
+
+        [DllImport("user32.dll")]
+        static extern IntPtr SetFocus(IntPtr hwnd);
+
+
+
     }
 }

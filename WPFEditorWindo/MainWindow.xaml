@@ -6,8 +6,13 @@
         xmlns:local="clr-namespace:WPFEditorWindo"
         xmlns:wpfEditor="clr-namespace:WPFEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Focusable="False">
+        Title="MainWindow" Height="450" Width="1194.193" Focusable="False">
     <Grid>
-        <wpfEditor:RenderSurfaceView/>
+        <wpfEditor:RenderSurfaceView Margin="0,0,386,-181" HorizontalAlignment="Right" Width="800" Height="600"/>
+        <!--<WrapPanel HorizontalAlignment="Right" Width="458" Margin="0,10,728,0" />-->
+        <WrapPanel Margin="805,10,0,0" >
+            <TextBox Height="398" TextWrapping="Wrap" Text="TextBox" Width="381"/>
+        </WrapPanel>
+
     </Grid>
 </Window>

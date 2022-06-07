@@ -26,7 +26,41 @@ namespace WPFEditor
         {
             InitializeComponent();
             Loaded += OnRenderSurfaceViewLoaded;
+
+            this.LostMouseCapture += OnLostMouseCapture;
+            this.GotMouseCapture += OnGotMouseCapture;
+            this.MouseEnter += OnMouseEnter;
+            this.MouseLeave += OnMouseLeave;
+
+            
         }
+
+        private void OnMouseLeave(object sender, MouseEventArgs e)
+        {
+            Console.WriteLine("mouse Leave");
+        }
+
+        private void OnMouseEnter(object sender, MouseEventArgs e)
+        {
+            Console.WriteLine("mouse enter");
+        }
+
+        private void OnGotMouseCapture(object sender, MouseEventArgs e)
+        {
+            Console.WriteLine("got mouse");
+        }
+
+        private void OnLostMouseCapture(object sender, MouseEventArgs e)
+        {
+            Console.WriteLine("Lost mouse");
+        }
+
+
+
+
+
+
+
 
         public void OnRenderSurfaceViewLoaded(object sender, RoutedEventArgs e)
         {
@@ -36,15 +70,15 @@ namespace WPFEditor
             Content = _host;
             
 
-            _host.MessageHook += new HwndSourceHook(ControlMsgFilter);
+            //_host.MessageHook += new HwndSourceHook(ControlMsgFilter);
             
         }
 
-        protected override void OnKeyDown(KeyEventArgs e)
-        {
-            //base.OnKeyDown(e);
-            Console.WriteLine("Key down in view");
-        }
+        //protected override void OnKeyDown(KeyEventArgs e)
+        //{
+        //    //base.OnKeyDown(e);
+        //    Console.WriteLine("Key down in view");
+        //}
 
 
         private bool _isDisposed;
@@ -82,12 +116,16 @@ namespace WPFEditor
             if (msg == WM_KEYDOWN)
             {
                 handled = true;
+                Console.WriteLine("Key down in render view");
                 return (IntPtr)DLGC_WANTCHARS;
             }
 
             return IntPtr.Zero;
         }
 
+
        
+
+        
     }
 }

@@ -13,8 +13,8 @@ namespace WPFEditor
         //private const string _engineDLL = @"C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking - C# editor test\Debug\SDLGameNetworking.dll";
 
 
-        private const string _engineDLL =
-            @"D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking - C# editor test\Debug\SDLGameNetworking.dll";
+        //private const string _engineDLL = "SDLGameNetworking.dll";
+        private const string _engineDLL = @"D:\One Drive - UOS\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking - C# editor test\Debug\SDLGameNetworking.dll";
 
         //C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Tools For Game Development\06 - im gui 1\SDLGameNetworking - C# editor test\Debug
 
